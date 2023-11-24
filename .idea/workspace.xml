@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6294f43-376f-4356-8985-74d7e5c5a660" name="Changes" comment="" />
+    <list default="true" id="b6294f43-376f-4356-8985-74d7e5c5a660" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +19,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,7 +38,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2YEcLKf6SlTgQIna3nI922Tt4CB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,8 +56,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/Working Directory/Academic/Semester 2/AAD/final/NextTravel_-_FrontEnd[1]/NextTravel - FrontEnd",
+    "last_opened_file_path": "E:/Working Directory/Academic/Semester 2/AAD/MyFinalProject/NextTravel-BackEnd/UserService/src/main/java/lk/nexttravel/userservice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,19 +67,25 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3578657",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "spring.configuration.checksum": "5817159bc787bbe80671ddc7bfeeceae",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "spring.configuration.checksum": "24e8207cfb1b083d41a907297aa4e793",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lk.nexttravel.vehicleservice.enums" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Working Directory\Academic\Semester 2\AAD\MyFinalProject\NextTravel-BackEnd\UserService\src\main\java\lk\nexttravel\userservice" />
+      <recent name="E:\Working Directory\Academic\Semester 2\AAD\MyFinalProject\NextTravel-BackEnd\VehicleService\src\main\java\lk\nexttravel\vehicleservice" />
       <recent name="E:\Working Directory\Semester 2\AAD\MyFinalProject\NextTravel-BackEnd\GuideService\src\main\java\lk\nexttravel\guideservice" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
+      <command value="mvn clean install -U" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.GuideServiceApplication">
@@ -79,6 +99,27 @@
     <configuration name="HotelServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="HotelService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lk.nexttravel.hotelservice.HotelServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="UserService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.nexttravel.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="VehicleService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.nexttravel.vehicleservice.VehicleServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="VehicleService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.nexttravel.vehicleservice.vehicleservice.VehicleServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,11 +143,24 @@
       <workItem from="1700383481067" duration="9174000" />
       <workItem from="1700579817829" duration="5021000" />
       <workItem from="1700623907286" duration="2561000" />
-      <workItem from="1700690857859" duration="2684000" />
+      <workItem from="1700690857859" duration="19621000" />
+      <workItem from="1700798931067" duration="237000" />
+      <workItem from="1700834953853" duration="5169000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
